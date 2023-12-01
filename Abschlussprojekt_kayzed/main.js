@@ -7,7 +7,7 @@ let objekteArray = [];
 function setup() {
     createCanvas(2600, 1700);
     frameRate(60);
-    //objekteArray.push(new virus(20,20));
+    // objekteArray.push(new virus(20,20));
     objekteArray.push(new RasenDestroyer(25,25));
     objekteArray.push(new Gras(24,25));
     objekteArray.push(new Gras(23,25));
